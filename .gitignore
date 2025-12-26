@@ -1,0 +1,64 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js (for linting tools)
+node_modules/
+
+# Python/uv (for linting tools)
+.venv/
+__pycache__/
+*.pyc
+
+# Vale styles (synced via `vale sync`)
+.vale/
+
+# Local configuration
+.envrc
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+bin/
+
+# Test artifacts
+testdata/*.tmp
+
+# Coverage
+coverage.out
+coverage.html
+
+# Project-specific local files
+.internal/
+.benchmarks/
+.claude
+tmp/
