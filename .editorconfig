@@ -13,7 +13,21 @@ trim_trailing_whitespace = true
 # Go files (tabs per gofmt convention)
 [*.go]
 indent_style = tab
-indent_size = 4
+
+# HTML and Jinja2 templates
+[*.{html,j2}]
+indent_style = space
+indent_size = 2
+
+# CSS and preprocessor files
+[*.css]
+indent_style = space
+indent_size = 2
+
+# JavaScript and TypeScript
+[*.{js,ts}]
+indent_style = space
+indent_size = 2
 
 # JSON files
 [*.{json,jsonc}]
@@ -42,5 +56,15 @@ indent_size = 2
 
 # Shell scripts
 [*.sh]
+indent_style = space
+indent_size = 2
+
+# Configuration files
+[*.{ini,cfg,conf}]
+indent_style = space
+indent_size = 2
+
+# XML and SVG files
+[*.{xml,svg}]
 indent_style = space
 indent_size = 2
