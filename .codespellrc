@@ -1,0 +1,3 @@
+[codespell]
+skip = .git,.vale,tmp
+ignore-words-list = AKS,caf,CrossReference,Nd,Wont,WONT

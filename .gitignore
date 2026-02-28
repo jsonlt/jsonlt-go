@@ -29,16 +29,16 @@ vendor/
 .DS_Store
 Thumbs.db
 
-# Node.js (for linting tools)
-node_modules/
+# Linter caches
+.rumdl_cache/
 
-# Python/uv (for linting tools)
-.venv/
-__pycache__/
-*.pyc
-
-# Vale styles (synced via `vale sync`)
-.vale/
+# Vale synced packages (keep vocabulary)
+.vale/*
+!.vale/config/
+.vale/config/*
+!.vale/config/vocabularies/
+.vale/config/vocabularies/*
+!.vale/config/vocabularies/JSONLT/
 
 # Local configuration
 .envrc

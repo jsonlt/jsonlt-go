@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 <!-- vale on -->
 
-**jsonlt-go** is the Go implementation of the [JSON Lines Table (JSONLT) specification][jsonlt].
+**jsonlt-go** is a Go package for the [JSON Lines Table (JSONLT) specification][jsonlt].
 
 > [!NOTE]
 > This package is in development and not yet ready for use.
